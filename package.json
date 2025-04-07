@@ -1,0 +1,12 @@
+{
+  "name": "registro-usuario-test",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas para formulario de registro",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/registro.test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0"
+  }
+}
