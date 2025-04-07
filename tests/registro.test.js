@@ -31,7 +31,7 @@ async function ejecutarPruebaRegistro() {
     console.log("Paso 2: Llenando el formulario...")
     await driver.findElement(By.id("nombre")).sendKeys("Usuario de Prueba")
     await driver.findElement(By.id("correo")).sendKeys("usuarioprueba@ejemplo.com")
-    await driver.findElement(By.id("clave")).sendKeys("Jensey1234")
+    await driver.findElement(By.id("clave")).sendKeys("Jensey123")
     await driver.findElement(By.id("confirmar")).sendKeys("Jensey123")
 
     console.log("Paso 3: Tomando captura antes de enviar...")
